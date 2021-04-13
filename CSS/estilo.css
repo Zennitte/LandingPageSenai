@@ -246,3 +246,45 @@ footer span{
     color: white;
 
 }
+
+@media (max-width:420px){
+
+    .container_banner{
+        display: flex;
+        justify-content: center;
+        height: 525px;
+    }
+
+    .fundo_banner{
+        height: 100%;
+        width: auto;
+    }
+
+    .box_conteudo_banner{
+        left: 9%;
+        right: 9%;
+        top: 120px;
+        align-items: center;
+    }
+
+    h1{
+        width: 90%;
+        font-size: 1.85em;
+        text-align: center;
+    }
+
+    hr{
+        width: 90%;
+        margin: 30px;
+    }
+    
+    .box_conteudo_banner span{
+        font-size: 1.7em;
+        margin-top: 10px;
+    }
+
+    .box_conteudo_banner img{
+        width: 45px;
+        margin-top: 35px;
+    }
+}
