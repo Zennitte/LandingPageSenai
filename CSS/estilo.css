@@ -249,6 +249,10 @@ footer span{
 
 @media (max-width:420px){
 
+    .container{
+        width: 80vw;
+    }
+
     .container_banner{
         display: flex;
         justify-content: center;
@@ -269,7 +273,7 @@ footer span{
 
     h1{
         width: 90%;
-        font-size: 1.85em;
+        font-size: 1.9em;
         text-align: center;
     }
 
@@ -287,4 +291,39 @@ footer span{
         width: 45px;
         margin-top: 35px;
     }
+
+    .container_sobre{
+        height: auto;
+    }
+
+   .container_sobre h2{
+       font-size: 1.9em;
+       padding: 35px 0;
+       text-align: center;
+   }
+
+    .img_box_sobre{
+        width: 80vw;
+    }
+    
+    .box_sobre{
+        flex-direction: column;
+    }
+
+    .box_participantes{
+        margin-top: 33px;
+        padding-bottom: 50px;
+    }
+
+    .box_participantes h3{
+        width: auto;
+        font-size: 1.31em;
+        margin: 40px 0;
+    }
+
+    .box_participantes p{
+        width: auto;
+        text-align: justify;
+    }
+
 }
