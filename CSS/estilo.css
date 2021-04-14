@@ -41,6 +41,10 @@ header{
     height: 100%;
 }
 
+.btn_menu{
+    display: none;
+}
+
 .nav_header a{
     color: white;
     text-decoration: none;
@@ -253,6 +257,32 @@ footer span{
         width: 80vw;
     }
 
+    .container_header{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav_header{
+        display: none;
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .btn_menu{
+        display: inline-block;
+    }
+
+    .btn_menu i{
+        color: white;
+        font-size: 30px;
+    }
+
     .container_banner{
         display: flex;
         justify-content: center;
@@ -261,7 +291,8 @@ footer span{
 
     .fundo_banner{
         height: 100%;
-        width: auto;
+        width: 100%;
+        object-fit: cover;
     }
 
     .box_conteudo_banner{
@@ -324,6 +355,42 @@ footer span{
     .box_participantes p{
         width: auto;
         text-align: justify;
+    }
+
+    .container_info{
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-evenly;
+    }
+
+    .endereco{
+        height: 800px;
+        justify-content: space-evenly;
+    }
+
+    .endereco h2{
+        width: unset;
+    }
+
+    .box_endereco{
+        width: 80vw;
+        height: unset;
+        padding: 60px 40px;
+    }
+
+    .endereco p{
+        margin-left: 0;
+    }
+
+    .img_mapa{
+        position: unset;
+        width: 80vw;
+        margin-bottom: 45px;
+    }
+
+    footer span{
+        width: 80vw;
+        text-align: center;
     }
 
 }
