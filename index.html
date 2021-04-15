@@ -25,7 +25,7 @@
         </div>
     </header>
 
-    <main>
+    <main onclick="fecharMenu()">
         <section id="inicio" class="container_banner">
             <img class="fundo_banner" src="assets_/imagem-fundo-banner.png" alt="">
             <div class="box_conteudo_banner">
@@ -98,6 +98,13 @@
                 // Mostrar o menu
                 menu.style.display = "flex";
             }   
+        }
+        function fecharMenu() {
+            var fechar_menu = document.getElementById("links");
+            if (fechar_menu.style.display === "flex") {
+                // Esconder menu
+                fechar_menu.style.display = "none";
+            }
         }
     </script>
 
