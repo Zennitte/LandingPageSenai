@@ -251,6 +251,13 @@ footer span{
 
 }
 
+/* @media(min-width:421px){ */
+
+    /* .nav_header{
+        display: flex;
+    }
+} */
+
 @media (max-width:420px){
 
     .container{
