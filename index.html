@@ -19,7 +19,7 @@
                 <a href="#desafios">desafios</a>
                 <a href="#endereco">endereço</a>
             </nav>
-            <a class="btn_menu" href="#" onclick="botaoDoMenu()">
+            <a class="btn_menu" href="javascript:void(0)" onclick="botaoDoMenu()">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
@@ -91,19 +91,23 @@
     <script>
         function botaoDoMenu() {
             var menu = document.getElementById("links");
-            if (menu.style.display === "flex") {
-                // Esconder o menu
-                menu.style.display = "none";
-            } else{
-                // Mostrar o menu
-                menu.style.display = "flex";
-            }   
+            if (screen.width <= 420) {
+                if (menu.style.display === "flex") {
+                    // Esconder o menu
+                    menu.style.display = "none";
+                } else {
+                    // Mostrar o menu
+                    menu.style.display = "flex";
+                }
+            }
         }
         function fecharMenu() {
             var fechar_menu = document.getElementById("links");
-            if (fechar_menu.style.display === "flex") {
-                // Esconder menu
-                fechar_menu.style.display = "none";
+            if (screen.width <= 420) {
+                if (fechar_menu.style.display === "flex") {
+                    // Esconder menu
+                    fechar_menu.style.display = "none";
+                }
             }
         }
     </script>
